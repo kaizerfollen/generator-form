@@ -1,0 +1,31 @@
+@mixin input {
+  position: relative;
+  width: 100%;
+  height: $px38;
+  padding-left: $px12;
+  margin: 0;
+  font-size: $px16;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid $grey;
+}
+
+@mixin checkbox {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin select {
+  display: block;
+  width: 100%;
+  height: $px38;
+  border: 1px solid $grey;
+}
+
+@mixin textarea {
+  display: block;
+  width: 100%;
+  height: $px78;
+  border: 1px solid $grey;
+  box-sizing: border-box;
+}

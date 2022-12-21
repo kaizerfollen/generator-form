@@ -1,0 +1,35 @@
+
+@import './variables.scss';
+@import './mixins.scss';
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.label {
+  padding: 0;
+  font-size: $px12;
+}
+
+.label-wrapper {
+  display: block;
+  text-align: left;
+}
+
+.wrapper {
+  margin-bottom: 8px;
+}
+
+.wrapper-btn {
+  display: flex;
+  .btn {
+    height: $px38;
+    margin-right: $px12;
+    background: lightskyblue;
+    font-size: $px14;
+    border: none;
+    border-radius: $px6;
+    cursor: pointer;
+  }
+}
